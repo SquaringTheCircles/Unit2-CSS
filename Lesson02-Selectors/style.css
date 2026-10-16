@@ -1,0 +1,31 @@
+h1, h2 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.player-card p {
+    color: #ABCDEF;
+}
+
+.player-card a {
+    background-color: goldenrod;
+}
+
+#banner {
+     border-bottom: 3px solid #5ADB8C;
+}
+
+.about p {
+    font-style: italic;
+}
+
+.tag, .stat {
+    font-weight: bold;
+}
+
+footer p {
+    color: #AEC0D8;
+}
+
+.player-card h2 {
+    color: aquamarine;
+}
