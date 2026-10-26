@@ -41,6 +41,15 @@ li + li {
 }
 
 /* STEP 1 ▸ the two fonts: body, then h1, h2, h3 */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h1, h2, h3 {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Rock 3D", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* STEP 2 ▸ sizes in rem, room between the lines */
 
