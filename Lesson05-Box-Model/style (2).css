@@ -115,3 +115,7 @@ section {
     box-sizing: border-box;
 }
 /* STEP 4 ▸ room below the notice */
+.notice {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
