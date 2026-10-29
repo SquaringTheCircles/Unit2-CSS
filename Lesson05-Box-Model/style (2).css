@@ -111,5 +111,7 @@ section {
     border-radius: 10px
 }
 /* STEP 3 ▸ count padding and border inside the width */
-
+* {
+    box-sizing: border-box;
+}
 /* STEP 4 ▸ room below the notice */
