@@ -94,9 +94,22 @@ header {
 }
 
 /* STEP 1 ▸ a border around each section */
-
+section {
+    border: 1 px solid #2B3F5F;
+    border-radius: 8px;
+}
 /* STEP 2 ▸ the notice bar */
-
+/* padding: 12px;            /* all four */
+/* padding: 12px 20px;       top+bottom, left+right */
+/* padding: 4px 24px 16px;   top, left+right, bottom */
+/* padding: 1px 2px 3px 4px; top right bottom left */ 
+.notice {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px dashed #52b705;
+    background-color: #2a2410;
+    border-radius: 10px
+}
 /* STEP 3 ▸ count padding and border inside the width */
 
 /* STEP 4 ▸ room below the notice */
