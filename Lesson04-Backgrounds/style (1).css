@@ -87,7 +87,7 @@ section {
 
 /* STEP 2 ▸ the header: gradient, then image, then overlay */
 header {
-    /* background-image: linear-gradient(180deg, #86ec6a, #193464); */
+    background-image: linear-gradient(180deg, #86ec6a, #193464);
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpqrhriLi4hmT6asIV-MInElAmMuiX9jW98TV6ZXQjfw&s=10);
     padding: 32px 24px;
 }
