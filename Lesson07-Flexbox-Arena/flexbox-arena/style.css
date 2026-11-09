@@ -55,7 +55,7 @@
 .l8 {
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: center
 }
 
 .l8 .links {
