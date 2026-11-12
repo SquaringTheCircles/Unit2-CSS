@@ -67,10 +67,12 @@ section, footer { padding: 48px 32px; }
 /* why: Either could work, but I personally used flex here since it appeared easier for me. This is because essentially all you had to do was define the gap and say that flex equalled one so that they would all be equal widths, basically only 2 short lines of code.*/
 .features {
    display:flex;
-   gap:24px
+   gap:24px;
+   flex-wrap: wrap;
 }
 .card {
    flex: 1;
+   min-width: 260px;
 }
 
 /* SECTION 4 - gallery: 3 columns, 2 rows, 16px gaps. */
@@ -110,4 +112,4 @@ section, footer { padding: 48px 32px; }
    2. Bento: make the big tile 3 columns wide. Where do the small
       tiles go? Write what you see in a comment, then put it back.
    3. Features: add flex-wrap: wrap and give .card a min-width of
-      260px. Make the window narrow. What happens? Write it down. */
+      260px. Make the window narrow. What happens? Write it down. By doing this it allows for one to go to an extra row. */
